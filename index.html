@@ -7,75 +7,97 @@
   <title>Bootstrap Grid</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-        <a href="#" class="navbar-brand">Logo</a>
+          <a class="navbar-brand" href="#">Logo</a>
         </div>
-       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="row">
-          <div class="col-lg-3">
-              <p><a href="#">About</a></p>
-            </div>
-            <div class="col-lg-3">
-              <p><a href="#">Home</a></p>
-            </div>
-            <div class="col-lg-3">
-            <p><a href="#">Sign In</a></p>
-            </div>
-            
-          </div>
-        </div>
+
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class=" nav navbar-nav navbar-right">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sign In</a></li>
+        </ul>
       </div>
+    </div>
   </nav>
   <div class="jumbotron">
-    <div class="container-fluid">
-     
-      <h1>Heading One</h1>
-      <h3>Heading Two</h3>
-      <p><a href="#" class="btn btn-success btn-lg">CTA</a></p>
+    <div class="container">
+      <div class="block">
       
+        <h1>Heading One</h1>
+      
+      
+        <h3>Heading Two</h3>
+      
+      
+        <p><a href="#" class="btn btn-success btn-lg">CTA</a></p>
+      </div>
     </div>
   </div> 
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
-      <div class="col-lg-3">
-        <p>Image</p>
+      <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+        <p>My</p>
       </div>
-      <div class="col-lg-3">
-        <p>Image</p>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <p>Bootstrap</p>
       </div>
-      <div class="col-lg-3">
-        <p>Image</p>
+      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+        <p>Grid</p>
       </div>
-      <div class="col-lg-3">
-        <p>Image</p>
+    </div>
+  </div> 
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <img src="http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2013/07/bootstrap.png">
+      </div>
+    </div>
+  </div> 
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+        <p>4</p>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+        <p>Equal</p>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+        <p>Bootstrap</p>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+        <p>Columns</p>
       </div>
     </div>
   </div> 
   <hr>
-  <div class="row">
   
-      <footer>
-        <div class="col-lg-4">
-          <p>&copy; Copyright 2016 Logo</p>
-        </div>
-        <div class="col-lg-4">
-          <p><a href="#">Twitter Facebook Instagram</a></p>
-        </div>
-        <div class="col-lg-4">
-          <p><a href="#">Contact Us</a></p>
-        </div>
-      </footer>
-    </div>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <p>&copy; Copyright 2016 Logo</p>
+            </div>
+            <div class="col-lg-4">
+              <p><a href="#">Twitter Facebook Instagram</a></p>
+            </div>
+            <div class="col-lg-4">
+              <p><a href="#">Contact Us</a></p>
+            </div>
+          </div>
+      </div>
+    
 
   <script src="js/bootstrap.min.js"></script>
 
